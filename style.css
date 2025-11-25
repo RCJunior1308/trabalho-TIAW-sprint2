@@ -1,11 +1,11 @@
 :root {
-  --pink: #db8c24;
+  --pink: #f06616;
 }
 
 body {
   margin:0;
   font-family: 'Inter', sans-serif;
-  background: linear-gradient(135deg,#fdf1f5,#ffe7ee);
+  background: linear-gradient(135deg,#f6f3ef,#ffe7ee);
   display:flex;
   justify-content:center;
   align-items:center;
