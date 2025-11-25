@@ -1,0 +1,34 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Ronaldo",
+      "email": "pvronaldocoelho@gmail.com",
+      "senha": "1234"
+    },
+    {
+      "id": "2",
+      "nome": "Maria",
+      "email": "mariazinha@gmail.com",
+      "senha": "1234"
+    },
+    {
+      "id": "f473",
+      "nome": "Kelvin",
+      "email": "jxkjbsjidsh@gmail.com",
+      "senha": "101010"
+    },
+    {
+      "id": "75fc",
+      "nome": "Kelvin",
+      "email": "polopolo@live.com",
+      "senha": "1234"
+    },
+    {
+      "id": "f35c",
+      "nome": "Pérola",
+      "email": "perola@gmail.com",
+      "senha": "1020"
+    }
+  ]
+}

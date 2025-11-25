@@ -1,0 +1,11 @@
+{
+  "name": "teste-meta-finance",
+  "version": "1.0.0",
+  "description": "Servidor JSON para o projeto Meta Finance",
+  "main": "db.json",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC"
+}

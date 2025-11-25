@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Meta Finance - Recuperar Senha</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <img src="img/logo.jpeg" alt="Meta Finance">
+    </div>
+    <h1>Recuperar Senha</h1>
+
+    <div id="recoverEmailArea">
+      <form id="form-recover">
+        <label for="recover-email">E-mail cadastrado</label>
+        <input type="email" id="recover-email" placeholder="Digite seu e-mail" required>
+        <button type="submit" class="btn">Continuar</button>
+      </form>
+    </div>
+
+    <div id="resetPasswordArea" style="display:none;">
+      <form id="form-reset">
+        <label for="new-password">Nova Senha</label>
+        <input type="password" id="new-password" placeholder="Digite a nova senha" required>
+        <button type="submit" class="btn">Redefinir Senha</button>
+      </form>
+    </div>
+
+    <div class="links">
+      <button type="button" class="link-btn" onclick="window.location='index.html'">Voltar ao Login</button>
+    </div>
+  </div>
+
+  <script src="recuperar.js"></script>
+</body>
+</html>
