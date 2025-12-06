@@ -28,7 +28,7 @@ formCadastro.addEventListener('submit', async function(e){
     });
 
     alert('Conta criada com sucesso!');
-    window.location = 'index.html';
+    window.location = 'login.html';
   } catch (error) {
     console.error(error);
     alert('Erro ao criar conta.');

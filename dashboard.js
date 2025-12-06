@@ -2,7 +2,7 @@ const usuarioLogado = JSON.parse(sessionStorage.getItem('usuarioLogado'));
 
 if (!usuarioLogado) {
   alert('Você precisa estar logado para acessar esta página.');
-  window.location = 'index.html';
+  window.location = 'login.html';
 } else {
 
   document.getElementById('nome-usuario').textContent = usuarioLogado.nome;
@@ -10,5 +10,5 @@ if (!usuarioLogado) {
 
 document.getElementById('btnSair').addEventListener('click', () => {
   sessionStorage.removeItem('usuarioLogado');
-  window.location = 'index.html';
+  window.location = 'homepage.html';
 });

@@ -1,0 +1,39 @@
+:root {
+  --pink: #f06616;
+}
+body {
+  margin:0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg,#f6f3ef,#ffe7ee);
+  height:100vh;
+}
+nav{
+    margin:0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg,#f6f3ef,#ffe7ee);
+}
+.mf-btn {
+  width:50%;
+  padding:8px;
+  border-radius:10px;
+  background-color: var(--pink);
+  border:none;
+  font-weight:600;
+  cursor:pointer;
+  box-shadow:0 6px 12px rgba(255,111,160,0.18);
+  margin-top:8px;
+
+}
+.vindo{
+    padding:150px;
+    background-color: white;
+    border-radius:10px;
+}    
+img{
+    border-radius:10px;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* opcional: espaço entre logo e texto */
+}

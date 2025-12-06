@@ -49,7 +49,7 @@ formReset.addEventListener('submit', async function(e) {
 
     if (response.ok) {
       alert('Senha redefinida com sucesso!');
-      window.location = 'index.html';
+      window.location = 'login.html';
     } else {
       alert('Erro ao atualizar senha.');
     }

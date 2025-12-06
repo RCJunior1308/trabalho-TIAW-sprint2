@@ -2,7 +2,7 @@
   "usuarios": [
     {
       "id": "1",
-      "nome": "Ronaldo",
+      "nome": "Ronaldo Jr",
       "email": "pvronaldocoelho@gmail.com",
       "senha": "1234"
     },
@@ -25,10 +25,10 @@
       "senha": "1234"
     },
     {
-      "id": "f35c",
-      "nome": "Pérola Ayumi",
-      "email": "perola@gmail.com",
-      "senha": "1020"
+      "id": "f7cd",
+      "nome": "Gabriel",
+      "email": "gabriel@gmail.com",
+      "senha": "12345"
     }
   ]
 }

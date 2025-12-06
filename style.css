@@ -94,3 +94,13 @@ input[type="password"] {
   flex-direction:column;
   gap:4px;
 }
+/*  Homepage  */
+/* ===== Ajustes versão Desktop ===== */
+body-desktop-home {
+  background: linear-gradient(135deg,#f6f3ef,#ffe7ee);
+  height:100vh;
+  margin:0;
+  font-family: 'Inter', sans-serif;
+}
+
+
